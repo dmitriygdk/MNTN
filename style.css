@@ -15,7 +15,7 @@ body{
     box-sizing: inherit;
 }
 
-a,p,h2{
+a,p,h2,ul{
     margin: 0;
     padding: 0;
 }
@@ -220,6 +220,14 @@ header{
     gap: 30px;
 }
 
+.social a{
+    color: #FFF;
+}
+
+.social a:hover{
+    color: #FBD784;
+}
+
 .social i{
     transform: rotate(-90deg);
 }
@@ -256,8 +264,6 @@ footer{
 }
 
 .footer-inner-list{
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -267,6 +273,14 @@ footer{
 .footer-inner-list li:first-child{
     color: #FBD784;
     font-size: 24px;
+}
+
+.footer-inner-list a{
+    color: #FFF;
+}
+
+.footer-inner-list a:hover{
+    color: #FBD784;
 }
 
 @media (max-width: 1440px) {
