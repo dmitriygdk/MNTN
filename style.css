@@ -126,7 +126,8 @@ header{
     line-height: 240px;
     left: 0;
     top: 38px;
-    color: rgba(255, 255, 255, 0.1);
+    color: #FFF;
+    opacity: 0.1;
 }
 
 .content-inner{
